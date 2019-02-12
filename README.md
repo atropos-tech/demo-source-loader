@@ -1,3 +1,7 @@
+[![npm package](https://img.shields.io/npm/v/demo-loader.svg)](https://www.npmjs.com/package/demo-loader)
+[![npm downloads](https://img.shields.io/npm/dw/demo-loader.svg)](https://www.npmjs.com/package/demo-loader)
+[![licence](https://img.shields.io/npm/l/demo-loader.svg)](https://opensource.org/licenses/MIT)
+
 `demo-loader` is a webpack loader that loads the original source of a javascript module together with a related markdown file, and attaches them to the exports of the module.
 
 # Usage
