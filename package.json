@@ -1,0 +1,33 @@
+{
+  "name": "demo-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader that side-loads sourcecode and associated markdown for a file",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atropos-tech/demo-loader"
+  },
+  "scripts": {
+    "test": "jest --watch --coverage --no-cache --runInBand",
+    "lint": "eslint *.js"
+  },
+  "author": "Duncan Thacker (duncan.thacker@atropos.co.uk)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "jest": "^24.1.0",
+    "mock-fs": "^4.8.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ]
+  },
+  "dependencies": {
+    "js-string-escape": "^1.0.1",
+    "loader-utils": "^1.2.3"
+  }
+}
