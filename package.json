@@ -1,11 +1,11 @@
 {
-  "name": "demo-loader",
+  "name": "demo-source-loader",
   "version": "0.1.0",
   "description": "Webpack loader that side-loads sourcecode and associated markdown for a file",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atropos-tech/demo-loader"
+    "url": "https://github.com/atropos-tech/demo-source-loader"
   },
   "scripts": {
     "test": "jest --watch --coverage --no-cache --runInBand",
