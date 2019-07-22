@@ -32,7 +32,7 @@ describe("Demo Loader (when markdown exists)", () => {
         };
 
         const remainingRequest = "someRemainingRequest";
-        demoLoader.pitch.apply(context, [remainingRequest]);        
+        demoLoader.pitch.apply(context, [remainingRequest]);
 
         const expectedModuleCode = `
 module.exports = require("!!someRemainingRequest");

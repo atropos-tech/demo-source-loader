@@ -1,3 +1,6 @@
+# 1.0.0 published 22/07/2019
+ * Update deps
+
 # 0.1.0 published 12/02/2019
  * Initial loader functionality
  * Eslint integration
